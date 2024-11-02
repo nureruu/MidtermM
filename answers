@@ -1,0 +1,14 @@
+switch vs checkout:
+
+git switch: Used only for switching branches. More intuitive and specifically designed for this purpose.
+git checkout: A multifunctional command that can switch branches, restore files, and check out commits. It can be more confusing.
+git merge:
+
+Merges changes from one branch into another. Creates a new commit if there are no conflicts; if there are conflicts, it requires resolution.
+Commit History After Rebase:
+
+During rebase, commits are reapplied onto a new branch, creating a linear history. The commit hashes change due to the new context.
+Local vs Remote Branches:
+
+Local branches: Simply named, e.g., main, feature-branch.
+Remote branches: Prefixed with the remote repository name, e.g., remotes/origin/main.
